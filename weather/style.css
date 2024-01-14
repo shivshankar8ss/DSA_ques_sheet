@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(176, 58, 107);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    height: 550px;
+    width: 500px;
+    background-color: rgba(75, 135, 204, 0.5);
+    border: 2px solid rgb(42, 165, 130);
+    box-shadow: 5px 5px 10px rgb(13, 175, 239);
+    padding: 10px;
+    border-radius: 15px;
+}
+.name{
+    text-align: center;
+    margin: 5px;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(249, 255, 80);
+}
+#sun {
+    width: 230px;
+    height: 190px;
+    margin-top: 10px;
+}
+
+.wimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#city{
+width: 100%;
+height: 40px;
+padding: 10px;
+text-align: center;
+border: none;
+border-radius: 10px;
+font-size: 20px;
+margin: 4px;
+background-color: rgb(25, 227, 234);
+}
+
+#country{
+    width: 100%;
+        height: 40px;
+        padding: 10px;
+        text-align: center;
+        border: none;
+        border-radius: 5px;
+        font-size: 20px;
+        margin: 4px;
+}
+
+#temp{
+    font-size: 60px;
+    text-align: center;
+    color: white;
+}
+
+.data{
+    font-size: 36px;
+    color: rgb(174, 255, 0);
+    text-align: center;
+}
+
+#cel{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}

@@ -1,11 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    
+
+<body onload="getData()">
+    <div class="box">
+        <p class="name">City Temperature</p>
+        <input type="text" placeholder="enter city name" onchange="getData()" id="city" value="">
+
+        <div class="box1">
+            <h1 id="temp">0<sup>o</sup></h1>
+            <p id="cel">Celsius</p>
+            <p class="data">Wind Speed(km/h): <span id="w-speed">0</span></p>
+            <p class="data">Humidity(%): <span id="humidity">0</span></p>
+        </div>
+        <div class="wimg">
+            <img id="sun" src="./images/sun_cld.png" alt="sun">
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
+
 </html>
