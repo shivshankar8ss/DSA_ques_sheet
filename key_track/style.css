@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #f4f287;
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgb(10, 159, 208);
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #12ee3e;
+}
+
+body {
+    background-color: #333;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: xx-large;
+    color: rgb(218, 237, 9);
+}
+
+.color {
+    margin-top: 20px;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid #a76868;
+    text-align: center;
+}
+
+th {
+    background-color: #f4f287;
+    color: #333;
+}
+
+td {
+    background-color: #0e909a;
+}
